@@ -77,7 +77,7 @@ namespace Assign2_N01652955.Controllers
             }
 
             int totalCal = burgerCalories + drinkCalories + sideCalories + dessertCalories;
-            string totalString = "Total calories: " + totalCal;
+            string totalString = "Your total calorie count is " + totalCal;
 
             return totalString;
 
